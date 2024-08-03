@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 
 // Basic GET route
 app.get("/", (req, res) => {
-    res.send("hii");
+    res.send("congratulations this is host now");
 });
 
 // POST route to send an email
